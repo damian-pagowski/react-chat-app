@@ -59,7 +59,7 @@
   border: 1px solid;
   text-align: left;
   min-height: 400px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   padding-top: 1em;
 }
 
@@ -108,4 +108,9 @@ h2 {
 
 .recipient {
   color: #019ad2;
+}
+
+.scrollable {
+  height: 100px;
+  overflow-y: scroll;
 }
